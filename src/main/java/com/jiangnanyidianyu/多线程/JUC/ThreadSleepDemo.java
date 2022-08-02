@@ -7,9 +7,9 @@ package com.jiangnanyidianyu.多线程.JUC;
 public class ThreadSleepDemo {
 
     public static void main(String[] args) {
-        new Thread(new MyThread("线程A", 500)).start();
-        new Thread(new MyThread("线程B", 1000)).start();
-        new Thread(new MyThread("线程C", 1500)).start();
+        new Thread(new MyThread("线程A", 5000)).start();
+        new Thread(new MyThread("线程B", 10000)).start();
+        new Thread(new MyThread("线程C", 15000)).start();
     }
 
     static class MyThread implements Runnable {
