@@ -38,6 +38,7 @@ public class CallableDemo implements Callable<Integer> {
             }
         };
         Thread newThread = new Thread(myRunnable);
-        newThread.run();  // 应该调用 newThread.start();
+//        newThread.run();  // 应该调用 newThread.start();
+        newThread.start();  // 应该调用 newThread.start();
     }
 }
