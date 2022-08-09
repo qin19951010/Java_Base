@@ -59,7 +59,6 @@ public class Tread_01 {
             }
         }
 
-
         //通过创建Thread类的匿名子类的方式
         new Thread(){
             @Override
